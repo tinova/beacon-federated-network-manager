@@ -1,0 +1,13 @@
+[2017-09-14 12:14:20] INFO  WEBrick 1.3.1
+[2017-09-14 12:14:20] INFO  ruby 2.0.0 (2015-12-16) [universal.x86_64-darwin16]
+== Sinatra (v1.4.6) has taken the stage on 6121 for development with backup from WEBrick
+[2017-09-14 12:14:20] INFO  WEBrick::HTTPServer#start: pid=910 port=6121
+127.0.0.1 - - [14/Sep/2017:14:08:18 +0200] "GET /fednet/3 HTTP/1.1" 500 47 0.0158
+localhost - - [14/Sep/2017:14:08:18 CEST] "GET /fednet/3 HTTP/1.1" 500 47
+- -> /fednet/3
+127.0.0.1 - - [14/Sep/2017:14:08:21 +0200] "GET /fednet/3 HTTP/1.1" 500 47 0.0015
+localhost - - [14/Sep/2017:14:08:21 CEST] "GET /fednet/3 HTTP/1.1" 500 47
+- -> /fednet/3
+== Sinatra has ended his set (crowd applauds)
+[2017-09-14 14:09:13] INFO  going to shutdown ...
+[2017-09-14 14:09:13] INFO  WEBrick::HTTPServer#start done.
